@@ -1,0 +1,218 @@
+h1{
+  color: #a10707;
+}
+
+body{
+  background-color: #f0eded;
+}
+
+h4{
+    margin-top: -120;
+}
+
+.main-banner .left-content {
+  margin-right: 45px;
+}
+ 
+.main-banner .left-content h6 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fe3f40;
+  margin-bottom: 15px;
+}
+
+.main-banner .left-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2a2a2a;
+  line-height: 72px;
+}
+
+.main-banner .left-content h2 em {
+  color: #03a4ed;
+  font-style: normal;
+}
+
+.main-banner .left-content h2 span {
+  color: #fe3f40;
+}
+
+.main-banner .left-content p {
+  margin: 20px 0px;
+}
+
+.main-banner .left-content form {
+  margin-top: 30px;
+  width: 470px;
+  height: 66px;
+  position: relative;
+}
+
+.main-banner .left-content form button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fe3f40;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  outline: none;
+  border: none;
+}
+
+.main-banner .left-content form input {
+  width: 470px;
+  height: 66px;
+  background-color: #03a4ed;
+  border-radius: 33px;
+  border: none;
+  outline: none;
+  padding: 0px 25px;
+  color: #fff;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.main-banner .left-content form input::placeholder {
+  color: #fff;
+}
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 226px 0px 120px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    background-image: url(../img/banner-right-image.png);
+    position: absolute;
+    left: 650px;
+    top: 110px;
+    width: 623px;
+    height: 640px;
+    background-repeat: no-repeat;
+    border: none;
+}
+  
+.main-banner .left-content {
+    margin-right: 45px;
+    
+}
+  
+.main-banner .left-content h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fe3f40;
+    margin-bottom: -90px;
+}
+  
+.main-banner .left-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px;
+}
+  
+.main-banner .left-content h2 em {
+    color: #03a4ed;
+    font-style: normal;
+}
+  
+.main-banner .left-content h2 span {
+    color: #fe3f40;
+}
+  
+.main-banner .left-content p {
+    margin: 20px 0px;
+}
+  
+.main-banner .left-content form {
+    margin-top: 30px;
+    width: 470px;
+    height: 66px;
+    position: relative;
+}
+  
+.main-banner .left-content form button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fe3f40;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    outline: none;
+    border: none;
+}
+  
+.main-banner .left-content form input {
+    width: 470px;
+    height: 66px;
+    background-color: #03a4ed;
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    padding: 0px 25px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+  
+.main-banner .left-content form input::placeholder {
+   color: #fff;
+}
+
+/*Table*/
+
+table.redTable {
+    border: 2px solid #A40808;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+table.redTable tbody td {
+    font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+}
+
+table.redTable thead {
+    background: #a20505;
+}
+
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+  

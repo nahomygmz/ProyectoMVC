@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Tarifas";
+}
+@model ProyectoMVC.Models.ViewModel.M1ViewModel
+
+<h1>Planes de Pago</h1>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   </head>
+
+<body>
+
+    <table class="redTable">
+        <thead>
+            <tr>
+                <th>PLAN</th>
+                <th>DESCRIPCIÓN</th>
+                <th>PRECIO</th>
+                <th>MÉTODO DE PAGO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@ViewBag.Plan1</td>
+                <td>@ViewBag.Desc</td>
+                <td>@ViewBag.Precio</td>
+                <td>@ViewBag.Metodo</td>
+            </tr>
+            <tr>
+                <td>@ViewData["Plan2"]</td>
+                <td>@ViewData["Desc2"]</td>
+                <td>@ViewData["Precio2"]</td>
+                <td>@ViewData["Metodo2"]</td>
+            </tr>
+            <tr>
+                @foreach (var vm in Model.DetallesModels)
+                {
+                    <td>@vm.plan3</td>
+                    <td>@vm.Desc3</td>
+                    <td>@vm.precio3</td>
+                    <td>@vm.metodo3</td>
+                }
+                
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
